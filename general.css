@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: 'Algerian';
+  src: local('Algerian'), url('font/ALGER.woff') format('woff');
+  /* Add other font formats (e.g., .ttf, .otf) for cross-browser compatibility */
+}

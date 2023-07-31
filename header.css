@@ -1,0 +1,40 @@
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 12px;
+  width: 100%;
+}
+
+.header-icon-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.brand-name{
+  font-size: 40px;
+  color: white;
+  font-family: Algerian, 'Times New Roman', Times, serif;
+}
+
+.cart-icon{
+  height: 40px;
+}
+
+.loading-icon{
+  animation: loading 1.2s /*infinite*/;
+}
+
+@keyframes loading {
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
