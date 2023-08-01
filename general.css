@@ -5,6 +5,11 @@
 }
 
 
+body{
+  display: flex;
+  flex-direction: row;
+}
+
 @font-face {
   font-family: 'Algerian';
   src: local('Algerian'), url('font/ALGER.woff') format('woff');
