@@ -47,7 +47,8 @@ function cardCreator(product) {
   
   const productImage = document.createElement('img')
   productImage.setAttribute('class','product-image')  
-  productImage.setAttribute('src',imgLink)  
+  productImage.setAttribute('src',imgLink)
+  productImage.setAttribute('loading','lazy')  
   productImageContainer.appendChild(productImage)
 
   const productFeatures = document.createElement('div')
